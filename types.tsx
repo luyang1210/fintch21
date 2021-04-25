@@ -6,11 +6,13 @@
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
+  FaceID: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Bank: undefined;
+  Profile: undefined;
+  Settings: undefined;
 };
 
 export type TabOneParamList = {
@@ -19,4 +21,8 @@ export type TabOneParamList = {
 
 export type TabTwoParamList = {
   TabTwoScreen: undefined;
+};
+
+export type TabThreeParamList = {
+  TabThreeScreen: undefined;
 };
